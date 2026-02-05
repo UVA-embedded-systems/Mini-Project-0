@@ -38,7 +38,7 @@
 #define UART_CTL_UARTEN         0x00000001  // UART Enable
 
 //------------UART_Init------------
-// Initialize the UART for 115,200 baud rate (assuming 16 MHz bus clock),
+// Initialize the UART for 115,200 baud rate (assuming 80 MHz bus clock),
 // 8 bit word length, no parity bits, one stop bit, FIFOs enabled
 // Input: none
 // Output: none
@@ -183,3 +183,4 @@ void Output_Init(void){
   UART_Init();
 }
 #endif
+
